@@ -11,6 +11,6 @@ public class Animal {
         this.isMammal=isMammal;
     }
     public void dispayAnimal(){
-       System.out.println("la famille est "+family+ " le nom est "+ name+ " lage est "+age+"est mamifere?"+isMammal);
+       System.out.println("la famille est "+family+ " le nom est "+ name+ " l'age est "+age+" est mamifere ? "+isMammal);
     }
 }
