@@ -1,8 +1,18 @@
 public class Zoo {
-    Animal[] animal;
-    String name;
-    String city;
-    final int nbrCages=25;
+    public Animal[] animal;
+    private String name;
+    public String city;
+    public final int nbrCages=25;
+
+    public String Getname(){
+        return (this.name);
+    }
+    public void Setname(String name){
+        if(name.isEmpty())
+            System.out.println("Name cannot be null");
+        else
+            this.name=name;
+    }
 
     Zoo(String name,String city, int nbrCages){
         this.animal=new Animal[nbrCages];
